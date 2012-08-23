@@ -1,0 +1,26 @@
+{
+  "author": "j1anb1n <i@jianbin.me> (http://jianbin.me)",
+  "name": "api.jianbin.me",
+  "description": "api for jianbin.me",
+  "keywords": [
+    "api",
+    "jianbin.me"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/j1anb1n/api.jianbin.me.git"
+  },
+  "main": "./",
+  "engines": {
+    "node": ">= v0.6.x"
+  },
+  "dependencies": {
+    "apiserver": "0.2.x"
+  },
+  "devDependencies": {
+    "mocha": "1.0.x",
+    "should": "0.6.1",
+    "request": "2.9.x"
+  }
+}
